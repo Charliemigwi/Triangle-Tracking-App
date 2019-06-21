@@ -12,13 +12,30 @@
     <div class="jumbotron">
           <h2>Triangle Tracking Application</h2>
     </div>
-      <form>
-        Side A: <input type="text" id='sideA'><br>
-        Side B: <input type="text" id='sideB'><br>
-        Side C: <input type="text" id='sideC'><br>
-        <button type="button" onclick="triangleType()"> Track Triangle</button>
-      </form>
-    <p id="output"> ??</p>
+<!-- Form to input values -->
+    <h5> Please Enter Triangle Sides Below:</h5>
+<div class="card">
+  <div class="container">
+<form>
+    <div class="form-group">
+ <label for=" SideA value">Side A</label>
+ <input type="text" class="form-control" id="sideA" >
+  </div>
+
+    <div class="form-group">
+<label for=" SideB value">Side B</label>
+<input type="text" class="form-control" id="sideB" >
+</div>
+
+  <div class="form-group">
+<label for=" SideC value">Side C</label>
+<input type="text" class="form-control" id="sideC" >
+</div>
+
+<button type="button" onclick="triangleType()"> Track Triangle</button>
+</form>
+</div>
+    <p id="output"> </p>
 </div>
   </body>
 </html>
