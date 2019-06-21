@@ -10,7 +10,7 @@ var triangleType = function(){
   if(isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
     output.textContent = "Please Input Numbers for all Fields!";
   } else {
-    
+        
   }
 
 }
