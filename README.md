@@ -11,3 +11,5 @@ The application functionality was considered before development. Certain conditi
 The Application uses HTML, CSS and Javascript. It also uses bootstrap for styling alongside a custome css file. Javascript takes care of the Business Logic while the rest take care of the User interface Logic.
 # Support and Contact Details
 For any isues kindly contact me through my email address charliemigwi@gmail.com or call me via +254724 128 289.
+# License
+Copyright (c) 2019 G PL License.
