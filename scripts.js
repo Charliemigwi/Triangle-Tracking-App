@@ -14,21 +14,23 @@ var triangleType = function(){
   function add(number1, number2){
   return number1 + number2;
 };
+  //define resultA, resultB and resultC to determine if triangle is valid
     var resultA = (sideB + sideC);
     var resultB = (sideA + sideC);
     var resultC = (sideA + sideB);
 if (resultA <= sideA || resultB <= sideB || resultC <= sideC ){
     output.textContent="You cannot form a Triangle from those values!!";
 }else if(sideA === sideB && sideB != sideC){
-    output.textContent="The Values Entered are for a Isosceles Triangle";
+    output.textContent="The Values Entered form a Isosceles Triangle";
 }else if(sideA === sideC && sideC != sideB){
-    output.textContent="The Values Entered are for a Isosceles Triangle";
+    output.textContent="The Values Entered form a Isosceles Triangle";
 }else if(sideB === sideC && sideC != sideA){
-    output.textContent="The Values Entered are for a Isosceles Triangle";
+    output.textContent="The Values Entered form a Isosceles Triangle";
 } else if(sideA === sideB && sideB === sideC) {
-    output.textContent= "The Values Entered are for an Equilateral Triangle";
+    output.textContent= "The Values Entered form an Equilateral Triangle";
 }
 else {
-    output.textContent ="The Values Entered are for a Scalene Triangle";
-}
+    output.textContent ="The Values Entered form a Scalene Triangle";
+};
+};
 };
