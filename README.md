@@ -7,3 +7,5 @@ The app will return three types of triangles based on the vlaues entered. The tr
 The application requires a HTML5 enabled browser to run. It also requires a text editor to open, view and edit code. Clicking the link in the description will open and run the app in a new tab.
 # Behavior Driven Environment (BDD)
 The application functionality was considered before development. Certain conditions were met for the application to work. For Example the app must check whether all the sides are equal, whether only two sides are equal or whether none of the sides are equal. It also checks if the sum of any two sides are less than or equal to the remaining side.
+# Technolgies Used
+The Application uses HTML, CSS and Javascript. It also uses bootstrap for styling alongside a custome css file. Javascript takes care of the Business Logic while the rest take care of the User interface Logic.
