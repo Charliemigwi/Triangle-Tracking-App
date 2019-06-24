@@ -16,7 +16,7 @@
     <h5> Please Enter Triangle Sides Below:</h5>
 <div class="card">
   <div class="container">
-<form>
+<form id="myForm">
     <div class="form-group">
  <label for=" SideA value">Side A</label>
  <input type="text" class="form-control" id="sideA" >
@@ -33,6 +33,7 @@
 </div>
 
 <button type="button" onclick="triangleType()"> Track Triangle</button>
+<input type="button" onclick="myFunction()" value="Reset form">
 </form>
 </div>
     <p id="output"> </p>
