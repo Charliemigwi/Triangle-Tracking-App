@@ -5,3 +5,5 @@ The application requires the user to enter three sides of a triangle and tells t
 The app will return three types of triangles based on the vlaues entered. The triangle can either be equilateral, Isosceles or Scalene. However, if the user does not enter any values, the application will notify him/ her. It will also detect string values and request the user to enter valid values.
 # Setup/ Installation
 The application requires a HTML5 enabled browser to run. It also requires a text editor to open, view and edit code. Clicking the link in the description will open and run the app in a new tab.
+# Behavior Driven Environment (BDD)
+The application functionality was considered before development. Certain conditions were met for the application to work. For Example the app must check whether all the sides are equal, whether only two sides are equal or whether none of the sides are equal. It also checks if the sum of any two sides are less than or equal to the remaining side.
